@@ -19,7 +19,7 @@ pipeline {
 
         stage('Deactivate Virtual Environment') {
             steps {
-                sh 'https://github.com/chiragss/jenkins1.git'
+                sh 'deactivate || true'
 		sh 'exit'
             }
         }
